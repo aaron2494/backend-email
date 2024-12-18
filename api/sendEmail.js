@@ -45,7 +45,7 @@ app.post('/send-email', (req, res) => {
     <p>${mensaje}</p>
     <footer>
       <p>Enviado desde SalemTech</p>
-      <p>Visita nuestro sitio web: <a href="https://main--salemtech.netlify.app/">www.salemtech.com</a></p>
+      <p>Visita nuestro sitio web: <a href="https://salemtech.netlify.app/">www.salemtech.com</a></p>
     </footer>
   </body>
 </html>

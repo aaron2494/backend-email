@@ -16,8 +16,8 @@ app.post('/send-email', (req, res) => {
   let transporter = nodemailer.createTransport({
     service: 'gmail', // o cualquier servicio de correo que uses
     auth: {
-      user: "aaron.e.francolino@gmail.com", // Tu correo electrónico
-      pass: "polc kwbp xojv frvd" // Tu contraseña de aplicación o cuenta
+      user: "salemtech.pagina@gmail.com", // Tu correo electrónico
+      pass: "fgzg ecxj iovh doaf" // Tu contraseña de aplicación o cuenta
     }
   });
 
@@ -25,7 +25,7 @@ app.post('/send-email', (req, res) => {
   let mailOptions = {
     from: email,
     replyTo: email, // // Correo del usuario que llenó el formulario
-    to: 'aaron.e.francolino@gmail.com', // Correo de destino (empresa)
+    to: 'info@salemtech.io', // Correo de destino (empresa)
     subject: asunto,
     html: `
     <html>
@@ -45,7 +45,7 @@ app.post('/send-email', (req, res) => {
     <p>${mensaje}</p>
     <footer>
       <p>Enviado desde SalemTech</p>
-      <p>Visita nuestro sitio web: <a href="https://salemtech.netlify.app/">www.salemtech.com</a></p>
+      <p>Visita nuestro sitio web: <a href="https://salemtech.io/">www.salemtech.com</a></p>
     </footer>
   </body>
 </html>

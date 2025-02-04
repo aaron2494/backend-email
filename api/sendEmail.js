@@ -25,7 +25,7 @@ app.post('/send-email', (req, res) => {
   let mailOptions = {
     from: email,
     replyTo: email, // // Correo del usuario que llenó el formulario
-    to: 'aaron.e.francolino@gmail.com', // Correo de destino (empresa)
+    to: 'info@salemtech.io', // Correo de destino (empresa)
     subject: asunto,
     html: `
     <html>

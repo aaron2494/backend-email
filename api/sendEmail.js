@@ -45,7 +45,7 @@ app.post('/send-email', (req, res) => {
     <p>${mensaje}</p>
     <footer>
       <p>Enviado desde SalemTech</p>
-      <p>Visita nuestro sitio web: <a href="https://salemtech.io/">www.salemtech.com</a></p>
+      <p>Visita nuestro sitio web: <a href="https://salemtech.io/">www.salemtech.io</a></p>
     </footer>
   </body>
 </html>
